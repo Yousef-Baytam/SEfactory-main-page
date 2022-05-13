@@ -22,7 +22,12 @@ header {
 }
 
 .logo {
-    width: 75px;
+    align-self: center;
+    justify-self: center;
+}
+
+.logo img {
+    width: 60px;
 }
 
 .list {
@@ -31,7 +36,7 @@ header {
 
 nav {
     display: flex;
-    padding: 0.8em 7vw;
+    padding: 6vw;
 }
 
 .nav-list-wrapper {
