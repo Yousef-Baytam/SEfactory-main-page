@@ -11,3 +11,8 @@ body {
 .list {
     display: none;
 }
+
+nav {
+    display: flex;
+    padding: 1em 7em;
+}
