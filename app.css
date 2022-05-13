@@ -14,17 +14,22 @@ body {
 
 nav {
     display: flex;
-    padding: 1em 7em;
+    padding: 0.5em 6em;
+}
+
+.nav-list-wrapper {
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    flex-grow: 1;
     align-self: center;
 }
 
 nav ul li {
     text-decoration: none;
-    justify-items: end;
+    flex-grow: 1;
 }
