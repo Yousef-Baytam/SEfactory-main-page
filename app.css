@@ -4,6 +4,10 @@ body {
     font-family: sans-serif;
 }
 
-nav>a {
-    width: 10%;
+.logo {
+    width: 70px;
+}
+
+.list {
+    display: none;
 }
