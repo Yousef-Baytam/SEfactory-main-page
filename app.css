@@ -6,6 +6,10 @@ body {
     overflow-wrap: break-word;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -13,7 +17,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
-    height: 132vh;
+    height: auto;
 }
 
 .logo {
