@@ -27,9 +27,23 @@ nav ul {
     list-style-type: none;
     display: flex;
     align-self: center;
+    align-items: center;
 }
 
 nav ul li {
-    text-decoration: none;
+    margin: 0em 0.4em;
     flex-grow: 1;
+    font-weight: 700;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.button {
+    font-size: 0.9em;
+    border-radius: 5px;
+    background-color: #0d0;
+    padding: 10px 15px;
+    cursor: pointer;
 }
