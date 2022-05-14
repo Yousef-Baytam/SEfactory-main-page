@@ -216,12 +216,21 @@ footer .icons a {
     .part-8 {
         flex-direction: row;
         padding: 2em 4em;
+    }
+
+    .part-7,
+    .part-8 {
         flex-wrap: wrap;
     }
 
     .part-1 {
+        justify-content: center;
         align-items: baseline;
         padding-bottom: 0;
+    }
+
+    .part-1-element {
+        max-width: 30%;
     }
 
     .batee5 {
