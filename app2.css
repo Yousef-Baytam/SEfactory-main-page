@@ -262,6 +262,10 @@ footer .icons a {
         flex-grow: 1;
     }
 
+    .header-element-2 {
+        max-width: 45%;
+    }
+
     footer {
         flex-direction: row;
         align-items: center;
@@ -283,4 +287,19 @@ footer .icons a {
         padding-top: 1em;
     }
 
+    nav {
+        padding: 1vw 7vw;
+    }
+
+    .hello {
+        padding: 0;
+    }
+
+    .hello li:not(.button) {
+        margin-left: 0;
+    }
+
+    .logo img {
+        width: 90px;
+    }
 }
