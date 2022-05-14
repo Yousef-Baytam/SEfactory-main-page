@@ -30,7 +30,8 @@
 .part-3,
 .part-3-title,
 .part-5,
-.part-7 {
+.part-7,
+.part-8 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +47,8 @@
 .part-3-element img,
 .part-5-img img,
 .part-6-img img,
-.part-7-element img {
+.part-7-element img,
+.part-8-element img {
     width: 100%;
 }
 
@@ -110,13 +112,26 @@
     padding: 3.3vmax 6vw;
 }
 
-.part-7-header {
+.part-7-header,
+.part-8-header {
     font-size: calc((2.5 - 1) * 1.2vh + 1rem);
     font-weight: bold;
     padding: 17px;
 }
 
-.part-7-element {
+
+.part-7-element,
+.part-8-element {
     width: 100%;
     padding: 17px;
+}
+
+.part-8 {
+    padding: 3.3vmax 6vw;
+}
+
+hr {
+    width: 100%;
+    font-weight: bolder;
+    margin: 17px;
 }
