@@ -36,7 +36,6 @@ header {
 
 nav {
     display: flex;
-    display: none;
     padding: 6vw;
 }
 
@@ -104,4 +103,15 @@ nav ul li a {
     border-radius: 5px;
     text-decoration: none;
     color: white;
+}
+
+.collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-list-wrapper svg {
+    align-self: center;
+    display: none;
 }
