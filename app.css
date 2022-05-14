@@ -115,6 +115,8 @@ nav ul li a {
     flex-grow: 1;
     color: black;
     height: 100vh;
+    font-size: 6.6vmin;
+    font-weight: 700;
 }
 
 .no-bg-img {
