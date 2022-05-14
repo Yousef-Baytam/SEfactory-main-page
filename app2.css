@@ -54,3 +54,11 @@
     font-size: calc((1.6 - 1) * 1.2vh + 1rem);
     width: 80%;
 }
+
+.part-2-info-info div {
+    padding: 1em 0;
+}
+
+.part-2-info-info div a {
+    color: #0d0;
+}
