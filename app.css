@@ -109,7 +109,7 @@ nav ul li a {
 }
 
 .collapse {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
@@ -128,9 +128,14 @@ nav ul li a {
 svg {
     align-self: center;
     cursor: pointer;
+    display: none;
 }
 
 .black {
     color: black;
     background-color: white;
+}
+
+.up {
+    transform: translateY(-47.5em);
 }

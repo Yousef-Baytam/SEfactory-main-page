@@ -191,3 +191,18 @@ footer .icons {
 footer .icons a {
     padding-left: 1em;
 }
+
+@media (max-width:800px) {
+    nav {
+        display: inline;
+    }
+
+    svg {
+        display: inline;
+        float: right;
+    }
+
+    .nav-list-wrapper {
+        display: none;
+    }
+}

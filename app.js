@@ -3,7 +3,7 @@ const button = document.querySelector('svg')
 const header = document.querySelector('.header-element')
 const headerMain = document.querySelector('header')
 const navbar = document.querySelector('.hello')
-const ul = document.querySelector('.hello')
+const wrapper = document.querySelector('.nav-list-wrapper')
 const nav = document.querySelector('nav')
 const part1 = document.querySelector('.part-1')
 const part2 = document.querySelectorAll('.part-2')
@@ -16,6 +16,7 @@ const part8 = document.querySelector('.part-8')
 const part9 = document.querySelector('.part-9')
 const footer = document.querySelector('footer')
 const links = document.querySelectorAll('.test')
+const svg = document.querySelector('svg')
 
 
 button.addEventListener('click', () => {
@@ -31,8 +32,10 @@ button.addEventListener('click', () => {
     part7.classList.contains('none') ? part7.classList.remove('none') : part7.classList.add('none')
     part8.classList.contains('none') ? part8.classList.remove('none') : part8.classList.add('none')
     part9.classList.contains('none') ? part9.classList.remove('none') : part9.classList.add('none')
+    svg.classList.contains('up') ? svg.classList.remove('up') : svg.classList.add('up')
     footer.classList.contains('none') ? footer.classList.remove('none') : footer.classList.add('none')
     navbar.classList.contains('collapse') ? navbar.classList.remove('collapse') : navbar.classList.add('collapse')
+    wrapper.classList.contains('collapse') ? wrapper.classList.remove('collapse') : wrapper.classList.add('collapse')
     nav.classList.contains('nav-collapse') ? nav.classList.remove('nav-collapse') : nav.classList.add('nav-collapse')
     for (let j of links) {
         j.classList.contains('black') ? j.classList.remove('black') : j.classList.add('black')
