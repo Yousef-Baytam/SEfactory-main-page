@@ -41,5 +41,3 @@ button.addEventListener('click', () => {
         j.classList.contains('black') ? j.classList.remove('black') : j.classList.add('black')
     }
 })
-console.dir(part1.classList.contains('sdqw'))
-console.log('test')
