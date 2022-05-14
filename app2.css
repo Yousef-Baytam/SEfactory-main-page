@@ -211,9 +211,12 @@ footer .icons a {
 @media (min-width:800px) {
 
     .part-2,
-    .part-1 {
+    .part-1,
+    .part-7,
+    .part-8 {
         flex-direction: row;
         padding: 2em 4em;
+        flex-wrap: wrap;
     }
 
     .part-1 {
@@ -244,5 +247,18 @@ footer .icons a {
     .part-5-header {
         margin: auto;
         max-width: 60%;
+    }
+
+    .part-7-header,
+    .part-8-header {
+        text-align: center;
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    .part-7-element,
+    .part-8-element {
+        width: 20%;
+        flex-grow: 1;
     }
 }
