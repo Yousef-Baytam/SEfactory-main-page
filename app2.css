@@ -2,12 +2,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3.3vmax 6vw;
 }
 
 .part-1-element {
     flex-grow: 1;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    align-items: center;
+    font-size: calc((1.6 - 1) * 1.2vh + 1rem);
+    padding: 1em 0;
 }
 
-.highlited {}
+.part-1-element div {
+    text-align: center;
+    padding: 35px 0px;
+}
+
+.highlighted {
+    color: #0d0;
+    font-size: calc((3.5 - 1) * 1.2vh + 1rem);
+}
