@@ -36,9 +36,7 @@ button.addEventListener('click', () => {
     nav.classList.contains('nav-collapse') ? nav.classList.remove('nav-collapse') : nav.classList.add('nav-collapse')
     for (let j of links) {
         j.classList.contains('black') ? j.classList.remove('black') : j.classList.add('black')
-        console.log(1)
     }
-    console.dir(part1.classList)
 })
 console.dir(part1.classList.contains('sdqw'))
 console.log('test')

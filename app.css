@@ -42,7 +42,7 @@ nav {
 .nav-list-wrapper {
     display: flex;
     flex-grow: 1;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 nav ul {
@@ -50,6 +50,8 @@ nav ul {
     display: flex;
     align-self: center;
     align-items: center;
+    flex-flow: wrap;
+    justify-content: flex-end;
 }
 
 nav ul li {
@@ -70,6 +72,7 @@ nav ul li a {
     background-color: #0d0;
     padding: 10px 15px;
     cursor: pointer;
+    flex-grow: 0;
 }
 
 .header-element {
