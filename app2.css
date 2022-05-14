@@ -176,7 +176,18 @@ footer .link a {
     color: #0d0;
 }
 
-
 footer .info {
     font-weight: bold;
+    text-align: center;
+}
+
+footer .icons {
+    padding-top: 2em;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+}
+
+footer .icons a {
+    padding-left: 1em;
 }
