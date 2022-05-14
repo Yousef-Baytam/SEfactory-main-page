@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: calc((1.6 - 1) * 1.2vh + 1rem);
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
     padding: 1em 0;
 }
 
@@ -18,11 +18,12 @@
     text-align: center;
     padding: 35px 0px;
     font-weight: bold;
+    max-width: 8em;
 }
 
 .highlighted {
     color: #0d0;
-    font-size: calc((3.5 - 1) * 1.2vh + 1rem);
+    font-size: calc((3.5 - 1) * 1.2vw + 1rem);
 }
 
 .part-2,
@@ -58,14 +59,14 @@ footer {
 .part-2-info-title {
     display: flex;
     flex-direction: column;
-    font-size: calc((3 - 1) * 1.2vh + 1rem);
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
     margin: 2rem 0;
     align-self: flex-start;
 }
 
 .part-2-info-info {
     margin: 1rem 0;
-    font-size: calc((1.6 - 1) * 1.2vh + 1rem);
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
     width: 80%;
 }
 
@@ -83,7 +84,7 @@ footer {
 }
 
 .part-3-title {
-    font-size: calc((3 - 1) * 1.2vh + 1rem);
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
     font-weight: 400;
     color: white;
     padding: 1em 0;
@@ -95,13 +96,13 @@ footer {
 
 .part-5-header,
 .part-5-info {
-    font-size: calc((2 - 1) * 1.2vh + 1rem);
+    font-size: calc((2 - 1) * 1.2vw + 1rem);
     text-align: center;
     padding: 17px;
 }
 
 .part-5-info {
-    font-size: calc((1.3 - 1) * 1.2vh + 1rem);
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
 
 }
 
@@ -118,7 +119,7 @@ footer {
 .part-7-header,
 .part-8-header,
 .part-9-header {
-    font-size: calc((2.5 - 1) * 1.2vh + 1rem);
+    font-size: calc((2.5 - 1) * 1.2vw + 1rem);
     font-weight: bold;
     padding: 17px;
 }
@@ -204,5 +205,44 @@ footer .icons a {
 
     .nav-list-wrapper {
         display: none;
+    }
+}
+
+@media (min-width:800px) {
+
+    .part-2,
+    .part-1 {
+        flex-direction: row;
+        padding: 2em 4em;
+    }
+
+    .part-1 {
+        align-items: baseline;
+        padding-bottom: 0;
+    }
+
+    .batee5 {
+        display: flex;
+        flex-direction: row;
+        max-height: 100vh;
+    }
+
+    .part-2-img {
+        padding: 0;
+    }
+
+    .empty {
+        flex-grow: 1;
+    }
+
+    .part-3-element {
+        width: 30%;
+        flex-grow: 0;
+    }
+
+    .part-6-img,
+    .part-5-header {
+        margin: auto;
+        max-width: 60%;
     }
 }
