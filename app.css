@@ -32,6 +32,20 @@ header {
 
 .list {
     display: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 300px;
+    padding: 1em;
+    position: absolute;
+    color: black;
+    transform: translate(-14.5em, 0.59em);
+    border-radius: 3px;
+}
+
+.list a {
+    padding: 5px;
+    color: black;
+    text-align: left;
+    flex-grow: 1;
 }
 
 nav {
@@ -112,6 +126,10 @@ nav ul li a {
     border-radius: 5px;
     text-decoration: none;
     color: white;
+}
+
+.button:hover .list {
+    display: block;
 }
 
 .collapse {
