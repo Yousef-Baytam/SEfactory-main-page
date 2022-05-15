@@ -159,6 +159,7 @@ nav ul li a {
     font-weight: 700;
     opacity: 1 !important;
     transform: translateY(20em);
+    padding: 0;
 }
 
 .no-bg-img {
