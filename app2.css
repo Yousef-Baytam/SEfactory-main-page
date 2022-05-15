@@ -201,14 +201,18 @@ footer .icons a {
 
 @media (max-width:800px) {
     nav {
-        display: inline;
+        display: flex;
+        flex-direction: row;
+        max-height: 5em;
 
+    }
+
+    .svg {
+        padding-top: 1em;
     }
 
     svg {
         display: inline;
-        float: right;
-        transform: translateY(-8.5em);
     }
 
     .nav-list-wrapper {
