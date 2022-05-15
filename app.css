@@ -42,10 +42,15 @@ header {
 }
 
 .list a {
-    padding: 5px;
-    color: black;
+    padding: 10px;
+    color: rgb(88, 88, 88);
     text-align: left;
     flex-grow: 1;
+    transition: all 200ms ease;
+}
+
+.list div {
+    padding-bottom: 1em;
 }
 
 nav {
@@ -130,6 +135,10 @@ nav ul li a {
 
 .button:hover .list {
     display: block;
+}
+
+.list a:hover {
+    color: black;
 }
 
 .collapse {
